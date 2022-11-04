@@ -1,0 +1,50 @@
+.container {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+    color: #212529;
+    border-bottom: 1px solid silver;
+}
+
+.container:last-child {
+    border: none;
+}
+
+.image {
+    width: 30px;
+}
+
+.name {
+    width: 140px;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #703f3f;
+}
+
+.symbol {
+    width: 100px;
+    text-align: left;
+}
+
+.redPriceChange ,
+.greenPriceChange {
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.currentPrice {
+    width: 100px;
+    text-align: left;
+}
+
+.redPriceChange {
+    color: rgb(255, 38, 38);
+}
+
+.greenPriceChange {
+    color: rgb(0, 204, 0);
+}
