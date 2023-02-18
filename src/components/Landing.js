@@ -31,7 +31,7 @@ const Landing = () => {
     const searchCoins = coins.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase()))
 
     return (
-        <>
+        <div className={styles.container}>
         
         <input className={styles.input} type="text" placeholder='Search' value={search} onChange={searchHandler} />
         {
@@ -43,7 +43,7 @@ const Landing = () => {
         </div> : <Loader/>
         }
         
-        </>
+        </div>
     );
 };
 

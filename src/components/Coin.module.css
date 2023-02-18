@@ -48,3 +48,18 @@
 .greenPriceChange {
     color: rgb(0, 204, 0);
 }
+
+@media screen  and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .name , .marketCap {
+        display: none;
+    }
+
+    .symbol , .redPriceChange , .greenPriceChange , .currentPrice {
+        text-align: center;
+    }
+
+}
