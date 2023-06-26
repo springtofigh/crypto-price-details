@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 ![Crypto Exchange](https://github.com/springtofigh/crypto-price-details/assets/90114320/939a2bda-3857-4c7c-8911-5e2c05a8e5e5)
 
 
-## Technologies that I use in this peoject
+## Technologies that I use in this project
 
 ✴ React
 
